@@ -1,0 +1,140 @@
+.container .card .sizes button, .container .card .purchase button {
+  padding: 0.5rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.container .card .sizes button:focus, .container .card .purchase button:focus {
+  outline: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 600 1rem Poppins;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 28rem;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  -webkit-box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .sneaker {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card .sneaker .circle {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(245, 70, 66, 0.75)), to(rgba(8, 83, 156, 0.75)));
+  background: linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
+}
+
+.container .card .sneaker img {
+  width: 20rem;
+  z-index: 2;
+}
+
+.container .card .info {
+  text-align: center;
+}
+
+.container .card .info h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.container .card .info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  color: #585858;
+  font-weight: lighter;
+}
+
+.container .card .sizes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.container .card .sizes button {
+  background: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .sizes .active {
+  background: #585858;
+  color: whitesmoke;
+}
+
+.container .card .purchase {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card .purchase button {
+  width: 50%;
+  border-radius: 1rem;
+  background: rgba(8, 83, 156, 0.2);
+}
+/*# sourceMappingURL=index.css.map */
